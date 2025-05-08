@@ -9,7 +9,7 @@ export default function Home() {
       <section className="relative h-[70vh] flex items-center justify-center">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/placeholder.svg?height=800&width=1600"
+            src="/at.jpg?height=800&width=1600"
             alt="Morocco landscape"
             fill
             className="object-cover brightness-75"
@@ -47,7 +47,7 @@ export default function Home() {
               >
                 <div className="relative h-60">
                   <Image
-                    src={destination.image || "/placeholder.svg"}
+                    src={destination.image || "/at.jpg"}
                     alt={destination.name}
                     fill
                     className="object-cover"
@@ -179,21 +179,21 @@ const destinations = [
     name: "Fes Medina",
     location: "Fes",
     description: "Explore the ancient walled city with its labyrinthine streets and the world's oldest university.",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/fes1.jpg?height=600&width=800",
   },
   {
     id: 2,
     name: "Volubilis Roman Ruins",
     location: "Meknes",
     description: "Visit Morocco's best-preserved Roman ruins dating back to the 3rd century BC.",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/mek1.jpg?height=600&width=800",
   },
   {
     id: 3,
     name: "Bahia Palace",
     location: "Marrakech",
     description: "Marvel at the intricate Islamic and Moroccan architectural styles from the 19th century.",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/kech.jpg?height=600&width=800",
   },
 ]
 
@@ -239,14 +239,14 @@ const blogPosts = [
     title: "The Hidden History of Chefchaouen's Blue Streets",
     excerpt: "Discover why this mountain town's streets were painted blue and the historical significance behind it.",
     date: "June 12, 2023",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/blue.jpg?height=400&width=600",
   },
   {
     id: 2,
     title: "Architectural Evolution: From Berber to Moorish",
     excerpt: "Explore how Morocco's architecture evolved over centuries of diverse cultural influences.",
     date: "May 28, 2023",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/arch.jpg?height=400&width=600",
   },
   {
     id: 3,
@@ -254,6 +254,6 @@ const blogPosts = [
     excerpt:
       "Learn about Morocco's pivotal position in historical trade networks connecting Africa, Europe, and the Middle East.",
     date: "April 15, 2023",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/trade.jpg?height=400&width=600",
   },
 ]

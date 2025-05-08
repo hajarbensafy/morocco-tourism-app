@@ -30,7 +30,7 @@ export default function SignupPage() {
       console.log("Signing up with:", name, email, password)
 
       // Redirect to dashboard after successful signup
-      router.push("/dashboard")
+      router.push("/login")
     } catch (error) {
       console.error("Signup failed:", error)
     } finally {
@@ -42,7 +42,7 @@ export default function SignupPage() {
     <div className="min-h-screen bg-amber-50 flex items-center justify-center p-4">
       <div className="w-full max-w-4xl bg-white rounded-xl shadow-lg overflow-hidden flex flex-col md:flex-row">
         <div className="md:w-1/2 relative h-60 md:h-auto">
-          <Image src="/placeholder.svg?height=800&width=600" alt="Historical Morocco" fill className="object-cover" />
+          <Image src="/sign.jpg?height=800&width=600" alt="Historical Morocco" fill className="object-cover" />
           <div className="absolute inset-0 bg-amber-900/60 flex flex-col justify-center p-8 text-white">
             <h2 className="text-2xl font-bold mb-4">Join Our Community</h2>
             <p className="mb-4">Sign up to start exploring Morocco's rich history and plan your next adventure.</p>

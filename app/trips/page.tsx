@@ -77,7 +77,7 @@ export default function TripsPage() {
           {tours.map((tour) => (
             <div key={tour.id} className="bg-white rounded-lg overflow-hidden shadow-md flex flex-col md:flex-row">
               <div className="md:w-1/3 relative h-64 md:h-auto">
-                <Image src={tour.image || "/placeholder.svg"} alt={tour.name} fill className="object-cover" />
+                <Image src={tour.image || "trip.jpg"} alt={tour.name} fill className="object-cover" />
                 {tour.featured && (
                   <div className="absolute top-4 left-4 bg-amber-600 text-white text-xs font-bold px-3 py-1 rounded-full">
                     Featured
@@ -151,7 +151,7 @@ const tours = [
     destinations: ["Rabat", "Fes", "Meknes", "Marrakech"],
     description:
       "Experience the historical wonders of Morocco's four imperial cities. This tour takes you through centuries of Moroccan royal history, exploring ancient medinas, magnificent palaces, and bustling souks with expert local guides.",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/trip.jpg?height=600&width=800",
   },
   {
     id: 2,
@@ -166,7 +166,7 @@ const tours = [
     destinations: ["Ouarzazate", "Ait Ben Haddou", "Merzouga"],
     description:
       "Journey through time as you visit ancient fortresses and spend nights under the stars in the Sahara. Explore UNESCO-listed kasbahs, traverse dramatic mountain passes, and experience traditional Berber hospitality.",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/trip1.jpg?height=600&width=800",
   },
   {
     id: 3,
@@ -181,7 +181,7 @@ const tours = [
     destinations: ["Tangier", "Asilah", "Rabat", "Essaouira"],
     description:
       "Discover Morocco's rich maritime history from Tangier to Essaouira with stops at historical ports. This tour explores Portuguese fortresses, ancient Roman ruins, and the fusion of European and African influences in coastal Morocco.",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/trip2.jpg?height=600&width=800",
   },
   {
     id: 4,
@@ -196,6 +196,6 @@ const tours = [
     destinations: ["High Atlas", "Imlil", "Ourika Valley"],
     description:
       "Trek through the Atlas Mountains and learn about the history and culture of indigenous Berber communities. Visit traditional villages perched on mountainsides, explore ancient irrigation systems, and enjoy stunning natural landscapes.",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/atlas.jpg?height=600&width=800",
   },
 ]

@@ -96,7 +96,7 @@ const blogPosts = [
       "Discover why this mountain town's streets were painted blue and the historical significance behind it. The blue color has a fascinating story dating back centuries.",
     date: "June 12, 2023",
     author: "Ahmed Benali",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/blue1.jpg?height=400&width=600",
   },
   {
     id: 2,
@@ -105,7 +105,7 @@ const blogPosts = [
       "Explore how Morocco's architecture evolved over centuries of diverse cultural influences, creating the unique style we recognize today.",
     date: "May 28, 2023",
     author: "Sophia El Mansouri",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/kech2.jpg?height=400&width=600",
   },
   {
     id: 3,
@@ -114,7 +114,7 @@ const blogPosts = [
       "Learn about Morocco's pivotal position in historical trade networks connecting Africa, Europe, and the Middle East, and how it shaped the country.",
     date: "April 15, 2023",
     author: "Jamal Tahiri",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/fes2.jpg?height=400&width=600",
   },
   {
     id: 4,
@@ -123,7 +123,7 @@ const blogPosts = [
       "From the Idrisid dynasty to the Alaouite monarchy of today, discover the fascinating history of Morocco's royal lineages.",
     date: "March 22, 2023",
     author: "Leila Kadiri",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/legacy.jpg?height=400&width=600",
   },
   {
     id: 5,
@@ -132,7 +132,7 @@ const blogPosts = [
       "Journey through time as we explore the mud-brick kasbahs that have stood as sentinels in Morocco's desert regions for centuries.",
     date: "February 18, 2023",
     author: "Omar Benchekroun",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/kasbah.jpg?height=400&width=600",
   },
   {
     id: 6,
@@ -141,6 +141,6 @@ const blogPosts = [
       "Tips and historical insights for exploring the walled medinas that form the historical heart of Morocco's imperial cities.",
     date: "January 05, 2023",
     author: "Yasmine Alami",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/medina.jpg?height=400&width=600",
   },
 ]
