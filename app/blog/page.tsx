@@ -6,10 +6,10 @@ export default function BlogPage() {
   return (
     <div className="min-h-screen bg-amber-50">
       {/* Header */}
-      <div className="bg-amber-900  text-white py-16">
+      <div className="bg-white  text-amber py-16">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Blog</h1>
-          <p className="text-lg md:text-xl max-w-2xl mx-auto text-amber-100">
+          <p className="text-lg md:text-xl max-w-2xl mx-auto text-amber-900">
             Discover stories, insights, and guides about Morocco's rich history and cultural heritage
           </p>
         </div>

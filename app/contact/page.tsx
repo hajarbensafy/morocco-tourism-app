@@ -4,10 +4,10 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-amber-50">
       {/* Header */}
-      <div className="bg-amber-900 text-white py-16">
+      <div className="bg-white-900 text-amber py-16">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
-          <p className="text-lg md:text-xl max-w-2xl mx-auto text-amber-100">
+          <p className="text-lg md:text-xl max-w-2xl mx-auto text-amber-900">
             Have questions about Morocco? Reach out to our team for information and travel assistance
           </p>
         </div>
